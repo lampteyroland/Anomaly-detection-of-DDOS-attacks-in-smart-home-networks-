@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
     Ptr<Node> mqttBroker = CreateObject<Node>();   
     
     
-    //This section of the code is setting up node container to hold all home nodes
+    //This section of the code is setting up node container to hold all home nodes 
     NodeContainer homeNodes;
     homeNodes.Add(smartCamera);
     homeNodes.Add(router);
